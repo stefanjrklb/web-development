@@ -1,0 +1,317 @@
+/*GENERAL STYLES*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+.btnTop {
+	position: fixed;
+	right:40px;
+	opacity: 0.7;
+	top:100px;
+	display: none;
+	background-color: #283048;
+	border:initial;
+	box-sizing: border-box;
+}
+
+header {
+	background: url("../img/bg_1.jpg") no-repeat;
+}
+
+.default-opacity {
+	opacity: 0.9;
+}
+
+.row {
+	padding: 40px 0;
+}
+
+.section-shadow {
+	box-shadow: 
+		0px 5px 15px rgba(0,0,0,0.5),
+		0px -5px 15px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 
+		0px 5px 15px rgba(0,0,0,0.5),
+		0px -5px 15px rgba(0,0,0,0.5);
+}
+
+.text-shadow {
+	text-shadow: 1px 4px 10px rgba(0,0,0,0.3);
+	-webkit-text-shadow: 1px 4px 10px rgba(0,0,0,0.3);
+}
+
+h1, h2, h3 {
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	margin: 0;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+.white-bg {
+	color: #283048;
+}
+
+.skillset-bg {
+	background: url("../img/bg_2.jpg");
+	color:#FFFFFF;
+}
+
+.contact-bg {
+	background: rgba(40,48,72,1);
+	color:#FFFFFF;
+}
+
+.section-title {
+	width: 100%;
+}
+
+.section-title > h2:after {
+	content: "";
+	display: block;
+	border:2px solid #283048;
+	opacity: 0.9;
+	width:12%;
+	margin: 3% 0; 
+}
+
+.skillset-bg .section-title > h2:after, .contact-bg .section-title > h2:after {
+	content: "";
+	display: block;
+	border:2px solid #FFFFFF;
+	opacity: 0.9;
+	width:12%;
+	margin: 3% 0; 
+}
+
+.section-content {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.content-place {
+	margin: 25px auto;
+	padding: 20px;
+	border:1px solid rgba(40,48,72,0.2);
+	border-radius: 10px;
+	box-shadow: 
+		3px 3px 15px rgba(0,0,0,0.5);
+	font-family: 'Raleway', sans-serif;
+}
+
+.content-place:first-child {
+	margin: 0;
+}
+
+.content-period {
+	font-size: 0.8em;
+}
+
+.content-description {
+	margin-top: 2%;
+}
+
+/*NAVBAR*/
+
+.navbar-default {
+	background-color: transparent;
+	border:none;
+}
+
+.navbar-default .navbar-brand {
+	padding-left: 0;
+	padding-top: 8px;
+	color: #FFFFFF;
+	opacity: 0.9;
+}
+
+.navbar-brand {
+	font-size: inherit;
+}
+
+.navbar-brand > img, .navbar-brand > span {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 7px;
+}
+
+.navbar-brand > span {
+	font-size: 1.4em;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+	color:#FFFFFF;
+	text-transform: uppercase;
+	opacity: 0.9;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover {
+	opacity:1;
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	opacity:1;
+	color:#FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+	color:#FFFFFF;
+}
+
+/*HEADER*/
+
+.main-header-section {
+	padding-top: 15%;
+	padding-bottom: 20%;
+}
+
+.main-header-section h1 {
+
+	text-transform: uppercase;
+}
+
+.main-header-section h1:after {
+	content: "";
+	display: block;
+	border:2px solid #FFFFFF;
+	opacity: 0.9;
+	width:5%;
+	margin: 0.5% 0;
+}
+
+.main-header-section p {
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+
+/*SKILLSET*/
+
+.skill-content {
+	margin-top:20px;
+	overflow: auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+.skill-content:first-child {
+	margin-top: 0;
+}
+
+.skill-name {
+	width: 30%;
+	float: left;
+	height: 22px;
+}
+
+.skill-bar {
+	width:70%;
+	float: left;
+}
+
+.bar {
+	width:80%;
+    height:22px;
+    background-color: lightgray;
+    border-radius:10px;
+    margin: 0 auto;
+    border:1px solid rgba(255,255,255,0.7);
+    box-sizing: border-box;
+    padding:0;
+}
+
+.progress {
+	width:200px;
+    height:20px;
+    background-color:#283048;
+    border-radius:10px;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.progress > p {
+	font-size:0.9em;
+    text-align: center;
+    line-height:20px;
+    padding:0;
+    margin:0;
+    color: rgba(255,255,255,0.5);
+}
+
+.skill-name > h3 {
+	line-height: 22px;
+	text-align: center;
+	font-size:1.2em;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+/*CONTACT*/
+
+.contact .row {
+	padding-top: 20px; 
+	padding-bottom: 10px;
+}
+
+.contact .section-title {
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+.contact .section-title > h2:after {
+	content: "";
+	display: block;
+	border:2px solid #FFFFFF;
+	opacity: 0.9;
+	width:12%;
+	margin: 1% auto; 
+}
+
+.contact-p > a >img {
+	vertical-align:initial;
+}
+
+.contact-p {
+	font-size: 1.3em;
+	vertical-align: middle;
+	text-align: center;
+}
+
+/*FOOTER*/
+
+footer {
+	background: rgba(40,48,72,1);
+	color:#FFFFFF;
+	height: 40px;
+}
+
+footer .row {
+	padding: 0;
+}
+
+footer p {
+	text-align: center;
+	line-height: 40px;
+	margin: 0;
+}

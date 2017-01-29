@@ -1,0 +1,44 @@
+body {
+	font-size: 10px;
+}
+
+.btnTop {
+	position: fixed;
+	right:40px;
+	opacity: 0.7;
+	top:100px;
+	display: none;
+	background-color: #283048;
+	border:initial;
+	box-sizing: border-box;
+}
+
+.navbar-brand {
+	display: none;
+}
+
+.section-title {
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.section-title > h2:after {
+	margin: 3% auto;
+}
+
+.skillset-bg .section-title > h2:after {
+	margin:3% auto;
+}
+
+.skill-name > h3 {
+	font-size: 0.8em;
+}
+
+.contact-p {
+	text-align: center;
+	font-size: 0.9em;
+}
+
+.contact .section-title > h2:after {
+	margin: 2% auto;
+}

@@ -19,6 +19,7 @@ body {
 
 header {
 	background: url("../img/bg_1.jpg") no-repeat;
+	background-size: 100% 100%;
 }
 
 .default-opacity {
@@ -71,6 +72,7 @@ p {
 
 .skillset-bg {
 	background: url("../img/bg_2.jpg");
+	background-size: 100% 100%;
 	color:#FFFFFF;
 }
 
